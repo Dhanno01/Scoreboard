@@ -1,0 +1,63 @@
+<br><br><div id="buttons">
+  <button id="tab1"><b>Home</b></button>
+  <button id="tab2"><b>Submissions</b></button>
+  <hr id="hr"></hr>
+  <div id="app">
+  <v-app id="inspire">
+    <v-card>
+      <v-card-title>
+        Contest Scoreboard
+        <v-spacer></v-spacer>
+        <v-text-field
+          v-model="search"
+          append-icon="mdi-magnify"
+          label="Search"
+          single-line
+          hide-details
+        ></v-text-field>
+      </v-card-title>
+      <v-data-table
+        dense
+         dark
+        :headers="headers"
+        :items="contest"
+        :search="search"
+        items-per-page="5"
+      ></v-data-table>
+    </v-card>
+  </v-app>
+  </div>
+<div id="submit">
+  <br><br>
+  <h2 align="center"> Completed Programs</h2>
+  <br><br>
+  <div class="submission-details">
+		<table class="submission-table">
+			<thead>
+		<tr>
+			<th>Submission Time</th>
+			<th>Status</th>
+			<th>Submitted By</th>
+			<th>Problem Title</th>
+			<th>Language of Submission</th>
+        </tr>
+        <tr>
+			<td id="submission-time"></td>
+			<td id="status"></td>
+			<td id="submitted-by"></td>
+			<td id="problem-title"></td>
+			<td id="language"></td>
+        </tr>
+      </thead>
+    </table>
+    </div>
+    </div>
+    
+    
+     
+     
+     
+  
+ 
+  
+  

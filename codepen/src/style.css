@@ -1,0 +1,70 @@
+#tab1, #tab2 {
+  width: 100px;
+  height: 25px;
+  border-color: blue;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.highlight {
+  font-family: Comic Sans ms;
+color: blue;
+}
+.highlight {
+  font-family: Comic Sans ms;
+color: blue;
+}
+
+.highlight {
+  font-family: Comic Sans ms;
+color: blue;
+}
+
+button:hover {
+  background-color: red;
+}
+#table {
+	border: solid;
+	width: 100%;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+.submission-details {
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-shadow: 0 0 10px #ccc;
+			margin: 20px auto;
+			max-width: 600px;
+		}
+
+		.submission-table {
+			width: 100%;
+			border-collapse: collapse;
+			margin-top: 20px;
+		}
+
+		.submission-table th,
+		.submission-table td {
+			border: 1px solid #ccc;
+			padding: 10px;
+			text-align: left;
+		}
+
+		.submission-table th {
+			background-color: #f1f1f1;
+		}
+h4{
+  color:#77777;
+  font-family:Quando;
+  font-size:14;
+  font-weight:600;
+  align-content:center;
+  margin: auto auto;
+  
+}
+
